@@ -1,0 +1,7 @@
+pre-commit:
+  jobs:
+    - name: Format Python
+      run: ruff format {staged_files}
+      glob:
+        - "*.{py,ipynb}"
+      stage_fixed: true

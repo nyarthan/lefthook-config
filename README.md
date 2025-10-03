@@ -21,6 +21,7 @@ remotes:
 | nixfmt          | `nix`                                               |
 | prettier-full   | `js,jsx,cjs,mjx,ts,tsx,cts,mts,yml,yaml,json,jsonc` |
 | prettier-jslike | `js,jsx,cjs,mjx,ts,tsx,cts,mts`                     |
+| ruff            | `py,ipynb`                                          |
 | rustfmt         | `rs`                                                |
 | stylua          | `lua`                                               |
 | yamlfmt         | `yml,yaml`                                          |
