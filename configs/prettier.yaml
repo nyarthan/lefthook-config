@@ -5,8 +5,3 @@ pre-commit:
       glob:
         - "*.{js,jsx,cjs,mjx,ts,tsx,cts,mts,yml,yaml,json,jsonc}"
       stage_fixed: true
-
-commit-msg:
-  jobs:
-    - name: commitlint
-      run: ./node_modules/@commitlint/cli/cli.js --edit {1}

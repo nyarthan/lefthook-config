@@ -1,0 +1,4 @@
+commit-msg:
+  jobs:
+    - name: commitlint
+      run: ./node_modules/@commitlint/cli/cli.js --edit {1}
