@@ -1,0 +1,7 @@
+pre-commit:
+  jobs:
+    - name: Format Rust
+      run: rustfmt {staged_files}
+      glob:
+        - "*.rs"
+      stage_fixed: true

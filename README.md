@@ -16,6 +16,7 @@ remotes:
 
 | Config          | Filetypes                                           |
 | --------------- | --------------------------------------------------- |
+| rustfmt         | `rs`                                                |
 | dprint-json     | `json,jsonc`                                        |
 | dprint-markdown | `md`                                                |
 | nixfmt          | `nix`                                               |
