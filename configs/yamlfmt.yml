@@ -1,0 +1,7 @@
+pre-commit:
+  jobs:
+    - name: format
+      run: yamlfmt {staged_files}
+      glob:
+        - "*.{yml,yaml}"
+      stage_fixed: true

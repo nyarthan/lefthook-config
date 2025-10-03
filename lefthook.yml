@@ -1,0 +1,3 @@
+extends:
+  - "./configs/yamlfmt.yml"
+  - "./configs/nixfmt.yml"

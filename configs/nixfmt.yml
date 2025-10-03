@@ -1,0 +1,7 @@
+pre-commit:
+  jobs:
+    - name: Format Nix
+      run: nixfmt {staged_files}
+      glob:
+        - "*.nix"
+      stage_fixed: true
