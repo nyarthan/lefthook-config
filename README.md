@@ -11,3 +11,14 @@ remotes:
       - configs/prettier-full.yml
       - ...
 ```
+
+## Formatters (pre-commit)
+
+| Config          | Filetypes                                           |
+| --------------- | --------------------------------------------------- |
+| dprint-json     | `json,jsonc`                                        |
+| dprint-markdown | `md`                                                |
+| nixfmt          | `nix`                                               |
+| prettier-full   | `js,jsx,cjs,mjx,ts,tsx,cts,mts,yml,yaml,json,jsonc` |
+| prettier-jslike | `js,jsx,cjs,mjx,ts,tsx,cts,mts`                     |
+| yamlfmt         | `yml,yaml`                                          |
