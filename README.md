@@ -16,10 +16,11 @@ remotes:
 
 | Config          | Filetypes                                           |
 | --------------- | --------------------------------------------------- |
-| rustfmt         | `rs`                                                |
 | dprint-json     | `json,jsonc`                                        |
 | dprint-markdown | `md`                                                |
 | nixfmt          | `nix`                                               |
 | prettier-full   | `js,jsx,cjs,mjx,ts,tsx,cts,mts,yml,yaml,json,jsonc` |
 | prettier-jslike | `js,jsx,cjs,mjx,ts,tsx,cts,mts`                     |
+| rustfmt         | `rs`                                                |
+| stylua          | `lua`                                               |
 | yamlfmt         | `yml,yaml`                                          |

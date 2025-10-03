@@ -1,0 +1,7 @@
+pre-commit:
+  jobs:
+    - name: Format Lua
+      run: stylua {staged_files}
+      glob:
+        - "*.lua"
+      stage_fixed: true
