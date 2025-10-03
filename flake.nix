@@ -34,6 +34,8 @@
             ];
 
             shellHook = ''
+              export DPRINT_PLUGIN_JSON='${pkgs.dprint-plugins.dprint-plugin-json}/plugin.wasm'
+              export DPRINT_PLUGIN_MARKDOWN='${pkgs.dprint-plugins.dprint-plugin-markdown}/plugin.wasm'
               lefthook install
             '';
           };
