@@ -1,0 +1,7 @@
+pre-commit:
+  jobs:
+    - name: Format Json(c)
+      run: dprint fmt {staged_files} --plugins https://plugins.dprint.dev/json-0.20.0.wasm
+      glob:
+        - "*.{json,jsonc}"
+      stage_fixed: true

@@ -1,7 +1,7 @@
 pre-commit:
   jobs:
-    - name: format
+    - name: Format JS-Like
       run: ./node_modules/prettier/bin/prettier.cjs --write {staged_files}
       glob:
-        - "*.{js,jsx,cjs,mjx,ts,tsx,cts,mts,yml,yaml,json,jsonc}"
+        - "*.{js,jsx,cjs,mjx,ts,tsx,cts,mts}"
       stage_fixed: true

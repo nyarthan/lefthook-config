@@ -1,6 +1,6 @@
 pre-commit:
   jobs:
-    - name: format
+    - name: Format Yaml
       run: yamlfmt {staged_files}
       glob:
         - "*.{yml,yaml}"

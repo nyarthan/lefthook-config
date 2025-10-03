@@ -27,9 +27,10 @@
         {
           devShells.default = pkgs.mkShell {
             packages = [
+              pkgs.dprint
               pkgs.lefthook
-              pkgs.yamlfmt
               pkgs.nixfmt-rfc-style
+              pkgs.yamlfmt
             ];
 
             shellHook = ''
